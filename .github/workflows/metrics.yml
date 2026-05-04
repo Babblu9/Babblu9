@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   github-metrics:
-    runs-on: blacksmith-2vcpu-ubuntu-2204
+    runs-on: ubuntu-latest
     steps:
       # =========================================================
       # MAIN METRICS — header + isocalendar (1-year heatmap)
